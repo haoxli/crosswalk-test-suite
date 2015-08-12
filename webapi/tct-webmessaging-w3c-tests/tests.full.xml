@@ -27,21 +27,9 @@
           </spec>
         </specs>
       </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="Channel_postMessage_clone_port_1" priority="P2" purpose="Check if when the user agent is to clone a port original port, with the clone being owned by owner, it must return a new MessagePort object" status="approved" type="compliance">
+      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="Channel_postMessage_clone_port" priority="P2" purpose="Test postMessage clone port" status="approved" type="compliance" subcase="2">
         <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/Channel_postMessage_clone_port.htm?total_num=2&amp;amp;amp;locator_key=id&amp;amp;amp;value=1</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="Channel_postMessage_clone_port_2" priority="P2" purpose="Check if data sent through remote port is received by the new cloned port" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/Channel_postMessage_clone_port.htm?total_num=2&amp;amp;amp;locator_key=id&amp;amp;amp;value=2</test_script_entry>
+          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/Channel_postMessage_clone_port.htm</test_script_entry>
         </description>
         <specs>
           <spec>
@@ -657,9 +645,9 @@
           </spec>
         </specs>
       </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="postMessage_MessagePorts_sorigin_1" priority="P2" purpose="Check if postMessage to same-origin iframe with MessagePort array containing 100 ports" status="approved" type="compliance">
+      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="postMessage_MessagePorts_sorigin" priority="P2" purpose="Test postMessage same-origin port" status="approved" type="compliance" subcase="2">
         <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/postMessage_MessagePorts_sorigin.htm?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/postMessage_MessagePorts_sorigin.htm</test_script_entry>
         </description>
         <specs>
           <spec>
@@ -669,9 +657,9 @@
           </spec>
         </specs>
       </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="postMessage_MessagePorts_sorigin_2" priority="P2" purpose="Check if messageChannel is supported" status="approved" type="compliance">
+      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010" priority="P2" purpose="Test postMessage without port" status="approved" type="compliance" subcase="15">
         <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/postMessage_MessagePorts_sorigin.htm?total_num=2&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html</test_script_entry>
         </description>
         <specs>
           <spec>
@@ -681,9 +669,9 @@
           </spec>
         </specs>
       </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_1" priority="P2" purpose="Check if the e.data is equals to undefined without ports" status="approved" type="compliance">
+      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010" priority="P2" purpose="Test postMessage with port" status="approved" type="compliance" subcase="15">
         <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html</test_script_entry>
         </description>
         <specs>
           <spec>
@@ -693,9 +681,9 @@
           </spec>
         </specs>
       </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_2" priority="P2" purpose="Check if the e.data is equals to null without ports" status="approved" type="compliance">
+      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="Transferred_objects_unusable" priority="P2" purpose="Test postMessage TRANSFERRED" status="approved" type="compliance" subcase="2">
         <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/Transferred_objects_unusable.htm</test_script_entry>
         </description>
         <specs>
           <spec>
@@ -705,309 +693,9 @@
           </spec>
         </specs>
       </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_3" priority="P2" purpose="Check if the e.data is equals to false without ports" status="approved" type="compliance">
+      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="postMessage_MessagePorts_xorigin" priority="P2" purpose="Test postMessage cross-origin port" status="approved" type="compliance" subcase="2">
         <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_4" priority="P2" purpose="Check if the e.data is equals to true without ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_5" priority="P2" purpose="Check if the e.data is equals to 1 without ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_6" priority="P2" purpose="Check if the e.data is equals to NaN without ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_7" priority="P2" purpose="Check if the e.data is equals to Infinity without ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_8" priority="P2" purpose="Check if the e.data is equals to string without ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_9" priority="P2" purpose="Check if the e.data is equals to date without ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_10" priority="P2" purpose="Check if the e.data is equals to regex without ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_11" priority="P2" purpose="Check if the e.data is equals to self without ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_14" priority="P2" purpose="Check if the e.data is equals to error without ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="without-ports_010_15" priority="P2" purpose="Check if the e.data is equals to unreached without ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/without-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_1" priority="P2" purpose="Check if the e.data is equals to undefined with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_2" priority="P2" purpose="Check if the e.data is equals to null with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_3" priority="P2" purpose="Check if the e.data is equals to false with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_4" priority="P2" purpose="Check if the e.data is equals to true with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_5" priority="P2" purpose="Check if the e.data is equals to 1 with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_6" priority="P2" purpose="Check if the e.data is equals to NaN with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_7" priority="P2" purpose="Check if the e.data is equals to Infinity with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_8" priority="P2" purpose="Check if the e.data is equals to string with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_9" priority="P2" purpose="Check if the e.data is equals to date with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_10" priority="P2" purpose="Check if the e.data is equals to regex with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_11" priority="P2" purpose="Check if the e.data is equals to self with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_14" priority="P2" purpose="Check if the e.data is equals to error with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="with-ports_010_15" priority="P2" purpose="Check if the e.data is equals to unreached with ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/with-ports/010.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="transferred_objects_unusable_1" priority="P2" purpose="Check if objects listed in transfer are transferred, not just cloned, meaning that they are no longer usable on the sending side" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/Transferred_objects_unusable.htm?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="postmessage_messageports_xorigin_1" priority="P2" purpose="Check if postMessage to cross-origin iframe with MessagePort array containing 100 ports" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/postMessage_MessagePorts_xorigin.htm?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/postMessage_MessagePorts_xorigin.htm</test_script_entry>
         </description>
         <specs>
           <spec>
@@ -1029,9 +717,9 @@
           </spec>
         </specs>
       </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="postmessage_arraybuffer_2" priority="P1" purpose="Check if the ArrayBuffer is supported" status="approved" type="compliance">
+      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="postMessage_ArrayBuffer" priority="P1" purpose="Test postMessage ArrayBuffer" status="approved" type="compliance" subcase="2">
         <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/postMessage_ArrayBuffer.htm?total_num=2&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/postMessage_ArrayBuffer.htm</test_script_entry>
         </description>
         <specs>
           <spec>
@@ -1065,9 +753,9 @@
           </spec>
         </specs>
       </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="event.ports_1" priority="P2" purpose="Check if the event.ports returns the MessagePort array sent with the message" status="approved" type="compliance">
+      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="event.ports" priority="P2" purpose="Test MessageEvent ports" status="approved" type="compliance" subcase="2">
         <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/event.ports.htm?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/event.ports.htm</test_script_entry>
         </description>
         <specs>
           <spec>
@@ -1092,18 +780,6 @@
       <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="event.source" priority="P2" purpose="Check if the event.source returns the WindowProxy of the source window with same-origin" status="approved" type="compliance">
         <description>
           <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/event.source.htm</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="event.ports_2" priority="P1" purpose="Check if the MessageChannel is supported" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/event.ports.htm?total_num=2&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
         </description>
         <specs>
           <spec>
@@ -1140,18 +816,6 @@
       <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="postmessage_date" priority="P2" purpose="Check if the messages can contain JavaScript values (e.g., Dates)" status="approved" type="compliance">
         <description>
           <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/postMessage_Date.htm</test_script_entry>
-        </description>
-        <specs>
-          <spec>
-            <spec_assertion category="Tizen W3C API Specifications" element_name="postMessage" element_type="method" interface="MessagePort" section="Communication" specification="HTML5 Web Messaging" />
-            <spec_url>http://www.w3.org/TR/2012/CR-webmessaging-20120501/#dom-messageport-postmessage</spec_url>
-            <spec_statement />
-          </spec>
-        </specs>
-      </testcase>
-      <testcase component="W3C_HTML5 APIs/Communication/HTML5 Web Messaging" execution_type="auto" id="postmessage_arraybuffer_1" priority="P2" purpose="Check if the postMessage with ArrayBuffer object is used" status="approved" type="compliance">
-        <description>
-          <test_script_entry>/opt/tct-webmessaging-w3c-tests/webmessaging/w3c/postMessage_ArrayBuffer.htm?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
         </description>
         <specs>
           <spec>
